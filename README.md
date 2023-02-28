@@ -1,6 +1,4 @@
-**Note: This is a README.md template file for you to use to describe the project you have completed. README's are used so that other developers can understand what your project is about. You will commonly see README's used on Github where they will be displayed on a project's repository. Delete this note after reading**
-
-# BNTA - Shop landing page assessment day solution
+# BNTA - Shop landing page assessment 
 
 This is a solution to the Shop landing page BNTA assessment day which will allow you to put the HTML and CSS you've learned in practice with a stretch goal of adding a Dark Mode to your site.
 
@@ -17,8 +15,6 @@ This is a solution to the Shop landing page BNTA assessment day which will allow
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -42,9 +38,8 @@ Add a screenshot of your solution.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
-**Note: Delete this note and the sentences above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-## My process
+## Our process
 
 Starting point:
 
@@ -62,6 +57,7 @@ Right before starting our LiveShare coding we made sure to split up the tasks ev
 - CSS custom properties
 - Flexbox
 - JavaScript
+- Images from "https://unsplash.com/
 - icons from "https://fontawesomeicons.com/svg/icons"
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
@@ -94,7 +90,7 @@ Sujan - My biggest learning was made using the inspect element when trying to ad
 ```
 
 
-Lewis - The most impactful thing I learned was the usage of <div> in order to style individual parts of my HTML code, such as colouring certain features, adding highlights upon interaction with the HTML objects (buttons) as well as the removal of text features. Using guidance from w3schools.com, I was able to add a slideshow which would transition images with the click of a button.
+Lewis - The most impactful thing I learned was the usage of <div> in order to style individual parts of my HTML code, such as colouring certain features, adding highlights upon interaction with the HTML objects (buttons) as well as the removal of text features. 
 
 
 Mohamed - I have learned how to make a div section keep within the same line by using the inline attribute. I have also learned how to change the svg colour when hovering mouse over by using the path and fill attributes in css and that is the part I am most proud of in my code. Along with the other CSS attributes of the social media icons.
