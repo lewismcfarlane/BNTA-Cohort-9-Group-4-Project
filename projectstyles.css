@@ -1,0 +1,419 @@
+/* background colors:
+white
+red colour - BF0603
+black colour - 001427
+ */
+
+/* SUJAN'S CSS */
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    color: #001427;
+    width: 100%;
+    padding: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 150%;
+}
+
+header ul {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    margin: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: none;
+    padding-left: 0;
+    border: none;
+    display: flex;
+    justify-content: space-around;  
+    list-style: none;
+}
+
+#sssearchbar {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sssearchbar input {
+    width:300px;
+    border: 0;
+    
+}
+
+#sssearchbar button {
+    height: 30px;
+    width: 30px;
+    margin-top: 10px ;
+    background-color: white;
+    border-radius: 10%;
+    border-color: #001427;
+}
+
+.sssearch :hover path {
+    fill: #bf0603;
+}
+
+#sssearchbar button :hover {
+    border-color: #bf0603;
+    background-color: azure;
+}
+
+
+header ul h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header ul input {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul {
+    text-decoration: none;
+    color: white;
+    padding: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* dropdown section */
+
+.ssdropbtn {
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    color: #001427;
+    padding: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-size: 24px;
+    border: none;
+}
+
+.ssdropdown {
+    position: relative;
+    display: inline-block;
+    flex-direction: row;
+    background-color: white;
+}
+
+.ssdropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.ssdropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    font-size: 16px;
+}
+
+.ssdropdown:hover .ssdropdown-content {
+    display: block;
+}
+
+.ssdropdown-content a:hover {
+    background-color: #bf0603;
+}
+
+.ssdropdown:hover .ssdropbtn {
+    background-color: #bf0603;
+    color: white;
+}
+
+/* SUJAN'S CSS end*/
+
+/* LEWIS'S CSS */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 46%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover of arrows, shows a black background */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.ltext {
+    color: black;
+    font-size: 5vw;
+    bottom: 0%;
+    left: 0%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250%;
+    padding: 12px 3px 0px;
+    position: relative;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+/* Adds a light opacity upon hovering the image */
+.mySlides div img:hover {
+    opacity: 80%;
+}
+
+/* Rounds edges of the images */
+
+.mySlides div a img {
+    border-radius: 2%;
+}
+
+/* Removes underline on hyperlink text */
+.mySlides div a {
+    text-decoration: none;
+}
+
+/* The dots showing which image we are on of the slideshow */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin-bottom: 1em;
+    
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* LEWIS'S CSS Ends */
+
+/*Will's CSS */
+
+.wpictures {
+    max-width: 1500px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin:auto;
+    /* from w3schools on overlaying text on image*/
+    position: relative;
+    text-align: center;
+    color: white;
+    /* from blogpost on aligning images horizontally, put in separate divs*/
+    display: flex;
+    justify-content: space-between;
+}
+
+/* dims the images when hovered over*/
+.wpictures div a:hover {
+    opacity: 80%;
+}
+
+/* curves the corners of the images*/
+.wpictures div a img {
+    border-radius: 2%
+}
+
+/* Top left text - positions and styles the text to the top lef of the container*/
+.wtop-left {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw; /* allows the font size to scale as the page is minimised*/
+    color:white;
+  }
+
+  /* bottom left text*/
+
+  .wbottom-left {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    color:white;
+    
+  }
+
+  /* bottom right text*/
+
+  .wbottom-right {
+    position: absolute;
+    bottom: 10%;
+    right: 32%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    color:white;
+    
+  }
+
+  /* Top right text */
+.wtop-right {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    color: white;
+  }
+
+    /* Top centre text */
+.wtop-centre {
+    position: absolute;
+    top: 2%;
+    right: 43%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 5vw;
+    color: white;
+    
+  }
+
+  #wshow_bg_2 {
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg');
+    width: 80%;
+    height: 400px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+/*Will's CSS */
+
+
+
+/*Mohamed Shire's CSS*/
+
+.msfooter {
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgray;
+
+}
+
+
+.msicons {
+    padding: 0.3em;
+
+}
+
+.msicons:hover path{
+    fill: red;
+}
+
+
+.mssm {
+    display: inline;
+    margin: 1em;
+    border: grey;
+    padding-top: 1.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    background-color: white;
+    
+}
+
+.mspayment {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.mspaymentdiv {
+    background-color: white;
+    text-align: center;
+}
+
+.mscopyright {
+    text-align: center;
+}
+
+.msemail {
+    text-align: right;
+    align-items: right;
+}
+
+
+
+
+/*Mohamed Shire's CSS*/
